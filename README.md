@@ -12,3 +12,7 @@ A simple Python script for automatically cleaning up old logs.
 1. **Build the image:**
    ```bash
    docker build -t log-cleaner .
+
+2. **Start cleanup**
+   ```bash
+   docker run -v $(pwd)/logs:/data/logs log-cleaner
