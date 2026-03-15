@@ -1,7 +1,7 @@
 import os
 import time
 
-directory = "test_logs" # Specify the directory to clean up
+directory = "/data/logs" # Specify the directory to clean up
 
 days = 1 # Number of days to keep files
 threshold = time.time() - (days * 24 * 60 * 60)  # Seconds to hours
